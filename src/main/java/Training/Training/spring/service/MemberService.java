@@ -3,9 +3,13 @@ package Training.Training.spring.service;
 import Training.Training.spring.domain.Member;
 import Training.Training.spring.repository.MemberRepository;
 import Training.Training.spring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
+
 
 public class MemberService {
 
